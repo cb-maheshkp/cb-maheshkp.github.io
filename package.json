@@ -1,0 +1,43 @@
+{
+  "name": "tableau-extension-exportall",
+  "version": "2.2.1",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "@tableau/tableau-ui": "^3.0.0",
+    "compare-versions": "^3.6.0",
+    "file-saver": "^2.0.2",
+    "react": "^16.13.1",
+    "react-app-polyfill": "^1.0.6",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.1",
+    "xlsx": "^0.16.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all",
+      "IE 10"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "typescript": "^3.9.7"
+  }
+}
